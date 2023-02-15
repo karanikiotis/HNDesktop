@@ -489,14 +489,15 @@ class App : PubSub.Subscriber {
         val tree = theTree
 
         override fun treeStructureChanged(e: TreeModelEvent?) {
-
+            println("[FaviconFetcher] Failed to download icon: ")
         }
 
         override fun treeNodesChanged(e: TreeModelEvent?) {
-
+            println("[FaviconFetcher] Failed to download icon: ")
         }
 
         override fun treeNodesRemoved(e: TreeModelEvent?) {
+            println("[FaviconFetcher] Failed to download icon: ")
         }
 
         override fun treeNodesInserted(e: TreeModelEvent?) {
